@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,9 +23,15 @@ body{
     padding:50px 30px;
 }
 
+.logo{
+    width:220px;
+    max-width:70%;
+    margin-bottom:20px;
+}
+
 h1{
     font-size:42px;
-    margin-bottom:5px;
+    margin:0 0 10px 0;
 }
 
 h2{
@@ -49,12 +57,29 @@ a:hover{
     text-decoration:underline;
 }
 
+.home-button{
+    display:inline-block;
+    margin-top:15px;
+    margin-bottom:30px;
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.home-button:hover{
+    background:#3b82f6;
+    text-decoration:none;
+}
+
 .box{
     background:#1f2937;
     border-left:4px solid #60a5fa;
-    padding:18px;
-    border-radius:8px;
-    margin:25px 0;
+    padding:20px;
+    border-radius:10px;
+    margin:30px 0;
 }
 
 .footer{
@@ -73,7 +98,13 @@ a:hover{
 
 <div class="container">
 
+<img src="logo.png" alt="GINGER MANE Logo" class="logo">
+
 <h1>Data Deletion Request</h1>
+
+<a class="home-button" href="index.html">
+← Home
+</a>
 
 <p>
 GINGER MANE respects your privacy and your right to request the deletion of account-related data associated with our games.
@@ -100,7 +131,7 @@ Data Deletion Request
 
 </div>
 
-<h2>Please include</h2>
+<h2>Please Include</h2>
 
 <ul>
 <li>The name of the game (for example: ROTRIS, MemoryPath or Sudoker).</li>
@@ -108,14 +139,14 @@ Data Deletion Request
 <li>The device used to play the game (if relevant).</li>
 </ul>
 
-<h2>What happens next?</h2>
+<h2>What Happens Next?</h2>
 
 <p>
 After receiving your request, GINGER MANE will review it and delete account-related data associated with the game where technically possible. This may include anonymous authentication identifiers and leaderboard-related data.
 </p>
 
 <p>
-Data stored only on your device, such as local settings, currencies, missions or unlocked content, can be removed by uninstalling the application or clearing its local app data.
+Data stored only on your device, such as local settings, currencies, missions or unlocked content, can be removed at any time by uninstalling the application or clearing its local app data.
 </p>
 
 <p>
@@ -147,4 +178,5 @@ gingermane57@gmail.com
 </div>
 
 </body>
+
 </html>
